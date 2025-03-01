@@ -1,0 +1,312 @@
+.header {
+    height: 30px;
+    background-color: rgb(241, 241, 241);
+}
+
+.top-wrap {
+    width: 1210px;
+    margin: 0 auto;
+    height: 30px;
+    position: relative;
+}
+
+.top-city {
+    text-align: center;
+}
+
+.top-city .dropdown {
+    line-height: 30px;
+    text-align: center;
+    cursor: default;
+}
+
+.top-city .hover {
+    width: 78px;
+    height: 31px;
+    background-color: #fff;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    margin-left: -1px;
+    margin-right: -1px;
+}
+
+.to-city {
+    line-height: 30px;
+    width: 78px;
+    height: 31px;
+}
+
+ul.top-city li.hover div.city-select {
+    width: 311px;
+    height: 244px;
+    border: 1px solid #dddddd;
+    position: absolute;
+    top: 30px;
+    left: -1px;
+    z-index: 4;
+    display: block;
+    background: #fff;
+}
+
+
+ul.top-city div.white {
+    width: 78px;
+    height: 10px;
+    position: absolute;
+    top: -4px;
+    left: 0px;
+    background-color: #fff;
+}
+
+.city-wrap {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.city-wrap .city-item a {
+    float: left;
+    width: 40px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+
+.top-right {
+    position: absolute;
+    top: 9px;
+    right: 0px;
+    width: 800px;
+    height: 12px;
+    line-height: 12px;
+}
+
+.top-right li {
+    float: left;
+    margin-right: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.top-right .left {
+    height: 30px;
+    line-height: 30px;
+    margin-top: -8px;
+    /* margin-top: -8px; */
+}
+
+.top-right li:hover {
+    color: #c81623;
+}
+
+.top-right .left span {
+    color: #c81623;
+    padding-left: 2px;
+}
+
+.top-right .menu {
+    width: 60px;
+    height: 31px;
+    text-align: center;
+    margin-top: -9px;
+    line-height: 30px;
+}
+
+
+li.speacer {
+    width: 1px;
+    height: 12px;
+    background: #ddd none repeat scroll 0 0;
+    margin-top: 1px;
+}
+
+.top-right li.hover .myjd {
+    position: absolute;
+    width: 280px;
+    height: 294px;
+    border: 1px solid #dddddd;
+    left: -1px;
+    top: 30px;
+    display: block;
+}
+
+
+ul.top-right li.hover div.white {
+    width: 60px;
+    height: 10px;
+    position: absolute;
+    top: -4px;
+    left: 0px;
+    background-color: #fff;
+}
+
+ul.top-right li.hover {
+    background-color: #fff;
+    border: 1px solid #dddddd;
+    border-top: none;
+}
+
+ul.top-right .myjd .up-pic {
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+
+.hover .myjd .login {
+    position: absolute;
+    top: 21px;
+    left: 85px;
+    font-weight: bold;
+}
+
+.hover .myjd .coupon {
+    position: absolute;
+    top: 45px;
+    left: 85px;
+}
+
+.hover .myjd .myjd-list {
+    position: absolute;
+    left: 14px;
+    top: 87px;
+    width: 250px;
+    height: 100px;
+}
+
+.hover .myjd .myjd-list .item {
+    float: left;
+    margin-right: 60px;
+    line-height: 15px;
+    margin-bottom: 11px;
+}
+
+li.hover div.myjd div.item-dou {
+    margin-left: 11px;
+}
+
+li.hover div.myjd div.item-licai {
+    margin-left: 11px;
+}
+
+ul.top-right .myjd .up-pic a img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.hover .myjd .myjd-bottom {
+    position: absolute;
+    bottom: 0;
+    width: 280px;
+    height: 102px;
+    border-top: 1px solid #dddddd;
+}
+
+.hover .myjd .myjd-bottom h2 {
+    position: absolute;
+    top: 0;
+    left: 14px;
+    font-weight: bold;
+    color: #666;
+}
+
+.hover .myjd .myjd-bottom .more {
+    position: absolute;
+    top: 0;
+    right: 14px;
+}
+
+.hover .myjd .myjd-bottom img {
+    position: absolute;
+    display: block;
+    top: 40px;
+    left: 18px;
+}
+
+li.hover .jd-phone {
+    width: 250px;
+    height: 195px;
+    display: block;
+    position: absolute;
+    top: 30px;
+    left: -1px;
+    border: 1px solid #dddddd;
+}
+
+
+li.hover .focus-jd {
+    width: 82px;
+    height: 105px;
+    display: block;
+    position: absolute;
+    top: 30px;
+    left: -1px;
+    border: 1px solid #dddddd;
+}
+
+li.hover .jd-service {
+    display: block;
+    position: absolute;
+    width: 170px;
+    height: 163px;
+    top: 30px;
+    left: -1px;
+    border: 1px solid #dddddd;
+    background-color: #fff;
+}
+
+
+li.hover .jd-service h2 {
+    position: absolute;
+    top: 0;
+    left: 14px;
+    font-weight: bold;
+    color: #666;
+}
+
+li.hover .jd-service .service-wrap {
+    position: absolute;
+    top: 28px;
+    left: 10px;
+}
+
+li.hover .jd-service div {
+    line-height: 23px;
+    margin-right: 55px;
+}
+
+
+li.hover .jd-service .service-wrap .fn-right {
+    margin-right: 55px;
+    line-height: 23px;
+    position: relative;
+    right: -50px;
+    bottom: 68px;
+}
+
+li.hover .jd-service .service-border {
+    width: 170px;
+    height: 61px;
+    border-top: 1px dotted #dddddd;
+    position: absolute;
+    bottom: 0;
+}
+
+li.hover .jd-service .service-border h2 {
+    position: absolute;
+    top: 4px;
+    left: 10px;
+    font-weight: bold;
+    color: #666;
+}
+
+li.hover .jd-service .service-border div {
+    position: absolute;
+    top: 25px;
+    left: 10px;
+}
